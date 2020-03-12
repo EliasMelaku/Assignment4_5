@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elias Melaku | Contacts</title>
+    <link rel="stylesheet" href="asset/styles.css">
+    
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a> 
+        <a href="Contacts.html">Contacts</a> 
+        <a href="gallary.html">Gallery</a>
+        <a href="blog.html">Blog</a>
+        <a href="myworks.html">My Works</a>
+    </nav>
+    <div class="contact_main">
+    <form action="https://www.google.com">
+        <h3>Contact Me</h3>
+        <div class="contacts">
+        <label class="disappear">First Name</label>
+        <input type="text" required pattern="[A-Za-z]{2,15}" title="Name can only contain letters" placeholder="Your first name">
+        </div>
+
+
+        <div class="contacts">
+        <label >Last Name</label>
+        <input type="text" pattern = "[A-Z a-z]{2,15}" title="Name can only contain letters" placeholder="Your last name">
+        </div>
+        
+        <div class="contacts">
+        <label>Email</label>
+        <input type="text" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-z]{2,}$"  placeholder="example@gmail.com">
+        </div>
+    
+        <div class="contacts">
+        <label >Phone Number</label>
+        <input type="tel" pattern="[0-9]{10}" title="Enter a valid phone number with 10 digits" placeholder="0911234567">
+        </div>
+
+
+        <div class="contacts"> 
+        <label >Password</label>
+        <input type="password" pattern=".{8,}" title="Minimum of 8 characters" placeholder="Enter your password">
+        </div>  
+
+        <div class="contacts">
+            <label>Where are you from</label> <select name="country"  aria-placeholder="USA">
+    
+                <option value="USA">USA</option>
+                <option value="UK">Uk</option>
+                <option value="Ethiopia">Ethiopia</option>
+                <option value="China">China</option>
+                <option value="Japan">Japan</option>
+                </select>
+        </div>
+    
+        <div class="contacts"> 
+        <label>Comments </label>
+        <Textarea cols="35" rows="10" placeholder="Your comments"></Textarea>
+        </div>
+
+        <div style="width: 20% ; margin: auto;">
+            <input type="submit" name="submit" value="Send"   >
+
+        </div>
+    
+    </form>
+    <div class="map">
+        <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Addis%20Ababa%20University&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/elementor-review/">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+    </div>
+    </div>
+    <p id="developed_by">Developed by Elias Melaku&copy;2020</p>
+    
+</body>
+</html>
