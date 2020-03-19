@@ -1,0 +1,185 @@
+body{
+    background-color: skyblue;
+}
+.flag{
+    margin: 3.6% auto;
+    position: relative;
+    width: 33%;
+    height: 250px;
+    display: inline-block;
+    
+}
+
+.five_three{
+    width: 80%;
+    height: 30%;
+    border-left:solid 1px black ;
+    border-right: solid 1px black ;
+    
+}
+.five_three_s{
+    width: 80%;
+    height: 25%;
+    border-left:solid 1px black ;
+    border-right: solid 1px black ;
+
+}
+#black{
+    background-color: black;
+    
+}
+#red{
+    background-color: #FF1C39;
+}
+#yellow{
+    background-color: yellow;
+    border-bottom: solid 1px black;
+    
+}
+#white{
+    background-color: white;
+}
+#white_up{
+    background-color: white;
+    border-top: solid 1px black;
+}
+#blue{
+    background-color: blue;
+}
+#green{
+    background-color: #006747;
+}
+p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.circle{
+    border: solid 1px black;
+    background: #BC002D;
+    width: 200px;
+    height: 200px;
+    border-radius: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+    
+
+}
+.holder{
+    background-color: white;
+    border: solid 1px black;
+    width: 80%;
+    height: 300px;
+
+}
+.cross {
+    
+    width: 80%;
+    height: 300px;
+    position: relative;
+}
+.cross:before, :after {
+    position: absolute;
+    content: '';
+}
+.cross:before {
+        width: 100%;
+        height: 40px;
+        top: 40%;
+        left: 0;
+    }
+.cross:after {
+        width: 40px;
+        height: 300px;
+        top: 0;
+        left: 40%;
+}
+#sweeden{
+    background: #004b87;
+}
+#sweeden:before{
+    background: #ffcd00;
+}
+#sweeden:after{
+    background: #ffcd00;
+}
+#england{
+    background-color: white;
+    border: solid 1px black;
+}
+#england:before{
+    background-color: #cf081f;
+    
+}
+#england:after{
+    background-color: #cf081f;
+    
+}
+#finland{
+    background-color: white;
+    border: solid 1px black;
+}
+#finland:before{
+    background-color: #002F6C;
+    
+}
+#finland:after{
+    background-color: #002F6C;
+    
+}
+.side {
+    width: 80%;
+    height: 300px;
+    position: relative;
+    border: solid 1px black;
+    
+}
+.side:after{
+    content: "";
+    height: 100%;
+    width: 33%;
+    left: 67%;
+    position: absolute;
+
+}
+.side:before{
+    content: "";
+    height: 100%;
+    width: 33%;
+    left: 0%;
+    position: absolute;
+
+}
+#france{
+    background-color: white;
+}
+#france:after{
+    background-color: #ef4135;
+}
+#france:before{
+    background-color: #0055a4;
+}
+#romania{
+    background-color: #fcd116;
+}
+#romania:after{
+    background-color: #ce1126;
+}
+#romania:before{
+    background-color: #002b7f;
+}
+#ireland{
+    background-color: white;
+}
+#ireland:after{
+    background-color: #ff883e;
+}
+#ireland:before{
+    background-color: #169b62;
+}
+
+
+
+
