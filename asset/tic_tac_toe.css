@@ -1,0 +1,30 @@
+body{
+	background-color: skyblue
+}
+.vert{
+    border-right: solid 3px black;
+    margin: 15% 30%;
+    width: 200px;
+    height: 200px;
+    
+}
+.hor{
+    border-bottom: solid 3px black;
+    margin: 15% 30%;
+    width: 200px;
+    height: 200px;
+}
+.both{
+    border-right: solid 3px black;
+    border-bottom: solid 3px black;
+    margin: 15% 30%;
+    width: 200px;
+    height: 200px;
+}
+table{
+    margin: 0% 30%;
+}
+
+
+
+
